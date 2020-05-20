@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Colins Hemsida
+	</title>
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+</head>
+		<h2>
+			Hur en virtual machine fungerar och hur man använder den.
+		</h2>
+
+			<p> <br /> </p>
+<body>
+		
+				<style>
+					body {
+						padding: 25px;
+						background-color: white;
+						color: black;
+						font-size: 30px;
+					}
+					.dark-mode {
+						background-color: black;
+						color: white;
+					}
+				</style>
+	<canvas id="myCanvas" width="1000" height="500" style="border:3px solid #000000;">
+
+	</canvas>
+			<canvas id="myCanvas2" width="1000" height="470" style="border: 3px solid #000000">
+				
+			</canvas>
+		<script>
+			
+			var canvas = document.getElementById("myCanvas");
+			var ctx = canvas.getContext("2d");
+			ctx.font = "30px Arial";
+			ctx.fillText("Information om hur en virtual machine fungerar",160,50);
+			ctx.font = "20px Arial";
+			ctx.fillText("En virtual machine är en kopia av den datorn som virtual machine programet kör på. Den kommer inte vara",30,130);
+			ctx.fillText("lika bra som din fysiska dator, det är på grund av att den använder precis som andra program din, fysiska",30,160);
+			ctx.fillText("dators komponenter för att köra programet. Vissa av det redan utlagda virtual machines har en fastsatt",30,190);
+			ctx.fillText("hur mycket den vill använda av din fysiska dator, men där finns de virtual machiens som man själv får ställa",30,220);
+			ctx.fillText("in, hur mycket du vill att virtual machinen ska använda av din dator, men alla virtual machiens har fortfarande",30,250);
+			ctx.fillText("någon form av mål som, måste bli uppnått till exemple du måste ha windows 10 för att kunna köra denna,",30,280);
+			ctx.fillText("virtual machinen eller att du måste använda macOS.",30,310);
+			ctx.fillText("Detta är en vanlig sak för virtual machinens skappar använder till exemple windows, då finns det nog inte",30,370);
+			ctx.fillText("på macOS eller linux, och det kan beror på att skapparen är bara van vid att, jobba med windows och",30,400);
+			ctx.fillText("orkar inte gå över till linux eller macOS.",30,430);
+
+					var canvas = document.getElementById("myCanvas2");
+					var ctx = canvas.getContext("2d");
+					ctx.font = "30px Arial";
+					ctx.fillText("Hur man använder en virtual machine",220,50);
+					ctx.font = ("20px Arial");
+					ctx.fillText("De flesta virtual machines som finns har en ganska simplet sätt att använda den på, till exemple",30,130);
+					ctx.fillText("VirtualBox har ett interface som man kan gör inställningar på och sätta igång den. Den finns också",30,160);
+					ctx.fillText("tillgänglig på Windwos, Linux och macOS så det kvitar vilken sorts dator du har, du kan förmodligen",30,190);
+					ctx.fillText("använda VirtualBox eftersom den är också gratis, kommer finnas en länk längst ner på sidan för att komma",30,220);
+					ctx.fillText("till VirtualBox's hemsida. Där finns också information där om vad du behöver för att köra VirtualBox",30,250);
+					ctx.fillText("och lite om VirtualBox, men överlag så är det inte så supersvårt att använda en virtual machine",30,280);
+					ctx.fillText("det ganska lätt om du har tex läst igenom hur man använder den typ av virtual machine du har valt,",30,310);
+					ctx.fillText("för de flesta som har lagt ut virtual machines har en how to på deras hemsidor om deras virtual machine.",30,340);
+					ctx.fillText("Om jag ska summera hur man använder en virtual machine så skulle det vara du start virtual machine",30,370);
+					ctx.fillText("programet sedan så kommer ett fönster att popa upp där du kan se in i virtual machinen.",30,400);
+
+
+				function myFunction() {
+					var element = document.body;
+					element.classList.toggle("dark-mode");
+				}
+		</script>
+
+				<a href="https://www.virtualbox.org/"> VirtualBox's hemsida </a>
+				
+</body>
+
+
+</html>
